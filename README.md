@@ -4,8 +4,11 @@ The Electrum server that build with one command line
 
 Dependency: 
 
+
 sudo apt-get update 
+
 sudo apt-get install -y wget docker.io curl
+
 
 
 
