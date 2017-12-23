@@ -1,5 +1,5 @@
 mkdir -p /root/TRASH
-curl -LOk https://github.com/iobond/aib-explorer-docker/releases/download/aib-1219052/aib-1224912.tgz -o /root/TRASH/aib-blockdata.tgz
+curl -LOk https://github.com/iobond/aib-explorer-docker/releases/download/aib-1224912/aib-1224912.tgz -o /root/TRASH/aib-blockdata.tgz
 mkdir -p /home/electrum.aib.one
 tar xf /root/TRASH/aib-blockdata.tgz -C /home/electrum.aib.one/
 curl -LOk https://github.com/iobond/aib-explorer-docker/releases/download/aibd-v5.13.3.13/aibd.tgz -o aibd.tgz 
